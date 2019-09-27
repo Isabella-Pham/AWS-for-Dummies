@@ -19,6 +19,7 @@ DynamoDB is a **Non-relational, Transactional Database**. This means you want to
 
 # Analytics
 ### Elasticsearch
+Elasticsearch is a search engine that stores and indexes your data so you can simply write a search for keywords and receive relevant information. It is typically paired with Logstash and Kibana, making the ELK (Elasticsearch, Logstash, Kibana)
 
 ### Redshift
 
