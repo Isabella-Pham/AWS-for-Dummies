@@ -15,11 +15,16 @@ Aurora is a **Relational, Transactional Database**. This means that you want to 
 ### DynamoDB
 DynamoDB is a **Non-relational, Transactional Database**. This means you want to store semi-structured data (such as JSON, XML) in a NoSQL database that needs to be accessed while your service is being used.
 
+## Management Tools
+### Cloudwatch
+
+### AWS Management Console
+
 ## Analytics
 ### Elasticsearch/Logstash/Kibana
 Elasticsearch is a search engine that stores and indexes your data so you can simply write a search for keywords and receive relevant information. It is typically paired with Logstash and Kibana, making the ELK (Elasticsearch, Logstash, Kibana).
 
-Logstash is a data transfer pipeline that can transfer data from specified locations into Elasticsearch. Read the documentation [here](https://www.elastic.co/guide/en/logstash/current/input-plugins.html) 
+Logstash is a data transfer pipeline that can transfer data from specified locations into Elasticsearch or vice versa. It can move data from S3, Cloudwatch, and more into Elasticsearch. To see what data sources Logstash can connect to, tead the documentation [here](https://www.elastic.co/guide/en/logstash/current/input-plugins.html). 
 
 ### Redshift
 
