@@ -26,7 +26,8 @@ Elasticsearch is a search engine that stores and indexes your data so you can si
 
 Logstash is a data transfer pipeline that can transfer data from specified locations into Elasticsearch or vice versa. It can move data from S3, Cloudwatch, and more into Elasticsearch. To see what data sources Logstash can connect to, tead the documentation [here](https://www.elastic.co/guide/en/logstash/current/input-plugins.html). 
 
-### Redshift
+Kibana is the front-end user interface individuals can use to interact with Elasticsearch. You can enter keywords in a search bar and get all relevant information you stored in Elasticsearch back. Additionally, you can create graphics and charts in Kibana to get a visualization of the data you are working with. 
+
 
 ## Compute
 ### Elastic Compute Cloud (EC2)
