@@ -33,6 +33,7 @@ Kibana is the front-end user interface individuals can use to interact with Elas
 
 ## Compute
 ### Elastic Compute Cloud (EC2)
+In simple terms, EC2 allows you to create _instances_ of a computer online. They aren't exactly like the computers you use everyday, but rather they provide cloud computing power. For example, let's say you created a sudoku game application on your computer. It's only running locally on your computer at the moment, so only you can access it. But if you want other people to access your game, you can run the sudoku application on an EC2 instance so it can be accessed by anyone who has permission to access it. 
 
 ### Lambda
 Lambdas are a good way to run code ONLY for specific scenarios. You write your code in the lambda console on the AWS website (or upload onto the lambda console) and you can set a trigger for the lambda so that it only runs when triggered. For example, we can have code in the lambda to transfer data from one S3 bucket called Bucket1 to another S3 bucket called Bucket2. The lambda's trigger then would be whenever Bucket1 is updated with more files. Thus, if you upload a file into Bucket1, this triggers the lambda which will then transfer the files over to Bucket2. 
