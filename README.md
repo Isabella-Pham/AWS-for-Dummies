@@ -19,7 +19,7 @@ DynamoDB is a **Non-relational, Transactional Database**. This means you want to
 ### Cloudwatch
 
 ### AWS Management Console
-
+The AWS Management Console is essentially the home page on the AWS website for your AWS account. You can manage all the AWS services you use by checking their costs as well as easily accessing them from the Management Console.
 ![A screenshot of the AWS Management Console](console.png)
 
 ## Analytics
