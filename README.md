@@ -16,11 +16,12 @@ Aurora is a **Relational, Transactional Database**. This means that you want to 
 DynamoDB is a **Non-relational, Transactional Database**. This means you want to store semi-structured data (such as JSON, XML) in a NoSQL database that needs to be accessed while your service is being used.
 
 ## Management Tools
-### Cloudwatch
-
 ### AWS Management Console
 The AWS Management Console is essentially the home page on the AWS website for your AWS account. You can manage all the AWS services you use by checking their costs as well as easily accessing them from the Management Console.
 ![A screenshot of the AWS Management Console](console.png)
+
+### Cloudwatch
+Cloudwatch collects 
 
 ## Analytics
 ### Elasticsearch/Logstash/Kibana
