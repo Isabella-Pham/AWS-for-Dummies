@@ -34,7 +34,10 @@ Kibana is the front-end user interface individuals can use to interact with Elas
 ## Compute
 ### Elastic Compute Cloud (EC2)
 
-### Lambdas
+### Lambda
+Lambdas are a good way to run code ONLY for specific scenarios. You write your code in the lambda console on the AWS website (or upload onto the lambda console) and you can set a trigger for the lambda so that it only runs when triggered. For example, we can have code in the lambda to transfer data from one S3 bucket called Bucket1 to another S3 bucket called Bucket2. The lambda's trigger then would be whenever Bucket1 is updated with more files. Thus, if you upload a file into Bucket1, this triggers the lambda which will then transfer the files over to Bucket2. 
+
+Lambdas are a great way to transfer data from one place to another if you're working with batch data (that is, the data you're working with comes in batches such as once a day or once a week). It's a cheaper alternative than using a stream that's running 24/7 to stream data into a storage service because there's no need to have a stream running for the whole day when you only get data once during the day! 
 
 ### Virtual Private Cloud (VPC)
 
